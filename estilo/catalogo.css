@@ -23,7 +23,7 @@ main.produtos {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 20px;
-   
+    padding-top: 160px;
 }
 
 main.produtos section.produto {
@@ -31,11 +31,10 @@ main.produtos section.produto {
     flex-direction: column;
     align-items: center;
     text-align: center;
-   background-color: rgb(214, 225, 230);
+    background-color: rgb(214, 225, 230);
     padding: 1rem 1rem;
     border-radius: 8px;
     max-height: 350px;
-   
     margin-top: 60px;
 }
 
@@ -49,7 +48,11 @@ section.produto p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    
+    cursor: pointer;
+}
+
+section.produto h3 {
+    cursor: pointer;
 }
 
 main.produtos section.produto button {
